@@ -15,7 +15,7 @@ int main()
 
 	char *p, *rest;
 
-  p = t;
+  	p = t;
 
 	do
 	{
