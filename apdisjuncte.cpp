@@ -14,7 +14,6 @@ int main()
 	cin.getline(t, sizeof(t));
 
 	char *p, *rest;
-
   	p = t;
 
 	do
@@ -24,9 +23,7 @@ int main()
 		if (p) // c apare in t pe pozitia p => il sterg
 		{ 
 			rest = p + strlen(c);
-
 			*p = '\0';
-
 			strcat(t, rest);
 		}
 	}
